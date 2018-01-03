@@ -1,0 +1,14 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "description": "an app for learn react.js",
+  "main": "index.js",
+  "author": "Ingeekar",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "6.24.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "live-server": "^1.2.0"
+  }
+}
