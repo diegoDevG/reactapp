@@ -1,5 +1,5 @@
-$brand-color: blue;
-
-*{
-    color: $brand-color;
-}
+@import './base/_settins.scss';
+@import './base/_base.scss';
+@import './components/_header.scss';
+@import './components/_action.scss';
+@import './components/_options.scss';

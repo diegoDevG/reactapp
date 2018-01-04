@@ -1,8 +1,8 @@
 import React from 'react'
-import { Button } from 'reactbulma'
+// import { Button } from 'reactbulma'
 
 const Option = (props) =>(
-    <div>               
+    <div className="option">               
        Option: {props.optiontext}
        <button 
        warning

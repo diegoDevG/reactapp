@@ -1,0 +1,20 @@
+#header{
+    background: $off-black;
+    margin-bottom: 4.8rem;
+    padding: 1.6rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+#header .title{
+    color: white;
+}
+
+#header .subtitle{
+    color: $off-white;
+}
+
+#header .section{
+    padding: 0 24px;
+}
+

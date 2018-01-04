@@ -1,14 +1,14 @@
 import React from 'react'
-import { Button } from 'reactbulma'
+// import { Button } from 'reactbulma'
 
 const Action = (props) =>(
-    <div>
+    <div id="action" className="has-text-centered">
         <button 
             info
             onClick= {props.handlerPick}
             disabled={!props.hasOptions}
         >
-        What should I do?
+        Elije un ganador!
         </button>
         
     </div>

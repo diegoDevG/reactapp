@@ -1,0 +1,87 @@
+#options{
+    width: 100%;
+    color: white; 
+}
+
+#options .container{
+    max-width: 600px;
+    background-color: #3C4251;
+}
+
+.option-header{
+    color:#a5afd7;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;height: 60px;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.377);
+    padding: 15px;
+}
+
+#options p{
+    color: #a5afd7;
+    font-size: 1.3rem;
+}
+
+.option-header button{
+    background: transparent;
+    color: #a5afd7;
+    border-color: transparent;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;    
+}
+
+.option{
+    height: 50px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.377);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    padding: 15px;
+}
+
+
+.option button{
+    background: transparent;
+    border-color: transparent;
+    color: #a5afd7;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+
+#add-option form{
+    padding: 20px;
+    background: #3C4251;
+}
+#add-option .container{
+    width: 600px;
+    color: #a5afd7;
+    font-size: 1.3rem;
+}
+#add-option button{
+    background: #8357c5;
+    border: none;
+    border-bottom: .3rem solid #693cad;
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+
+#add-option input{
+    background: #333745;
+    border: none;
+    border-bottom: .3rem solid rgb(31, 32, 37);
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+

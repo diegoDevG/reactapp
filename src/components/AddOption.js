@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/bulma.css'
+// import '../styles/bulma.css'
 
 export default class AddOption extends React.Component{
     state = { error: undefined }
@@ -19,12 +19,14 @@ export default class AddOption extends React.Component{
     }
     render(){        
         return (
-            <div>
+            <div id="add-option" className="has-text-centered">
+                <div className="container">
                 {this.state.error && <p>{this.state.error}</p>}                
-                <form onSubmit= {this.handleAddOption}>
+                <form  onSubmit= {this.handleAddOption}>
                     <input type="text" name="option"/>
                     <button className = "success">Add Option</button>
                 </form>
+                </div>
             </div>
         )
     }

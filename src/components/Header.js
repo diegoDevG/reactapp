@@ -1,11 +1,10 @@
 import React from 'react'
 
 const Header = (props) =>(
-    <div>
-       <h1>{props.title}</h1>
-       {props.subtitle && <h2>{props.subtitle}</h2>}
+    <div id="header">
+      
        <section className="section">
-            <div className="container">
+            <div className="container has-text-centered">
             <h1 className="title">
                 {props.title}
             </h1>           
